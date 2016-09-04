@@ -1,4 +1,4 @@
-# [hanifui.github.io]
+# hanifui.github.io
 
 [![Download versi terbaru](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download.svg)][btn-download]
 
@@ -373,3 +373,29 @@ hanif_dropdown_draw(dropdown0);
 ```
 
 ## Changelog
+
+```
+V 1.0
+-----------------------------------
+* Pembuatan kontrol textbox
+* Pembuatan kontrol button
+
+V 1.1
+-----------------------------------
+* Pembuatan global
+* Fix beberapa bug
+
+V 1.2
+-----------------------------------
+* Pembuatan kontrol checkbox
+* Pembuatan kontrol tombol radio
+* Fix beberapa bug
+* Pembuatan ekstensi
+
+V 1.3
+-----------------------------------
+* Perubahan external name
+* Pembuatan kontrol dropdown
+* Penambahan fungsi inisialisasi
+* Fix beberapa bug
+```
