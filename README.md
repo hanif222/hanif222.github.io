@@ -6,7 +6,7 @@
 
 ## Pengenalan
 
-***Hanif Project UI*** adalah sebuah kumpulan fungsi ekstesi yang dibangun dengan bahasa **GML** (*Game Maker Language*). Tujuannya tidak lain dan tidak bukan adalah untuk mempermudah dalam pengembangan game khusuhnya pada bagian UI. Kelebihan ***Hanif Project UI*** ini adalah tidak memerlukan sprite tambahan untuk memakainya.
+***Hanif Project UI*** adalah sebuah kumpulan fungsi ekstensi yang dibangun dengan bahasa **GML** (*Game Maker Language*). Tujuannya tidak lain dan tidak bukan adalah untuk mempermudah dalam pengembangan game khusuhnya pada bagian UI. Kelebihan ***Hanif Project UI*** ini adalah tidak memerlukan sprite tambahan untuk memakainya.
 
 ## Penginstalan
 
@@ -34,6 +34,13 @@ hanif_control_start();
 Finalisasi fungsi setelah memanggil fungsi yang lain dan menghancurkan semua kontrol. Secara otomatis, jika menggunakan *extension* kita sudah memanggil fungsi ini juga.
 ```
 hanif_control_end();
+```
+
+### *hanif_control_exist()*
+
+Untuk mengecek apakah kontrol ada atau tidak. Fungsi ini akan menghasilkan nilai **true** jika kontrol ada dan **false** jika tidak..
+```
+hanif_control_exist(button0);
 ```
 
 ### *hanif_control_is_enable(handle[real])*
