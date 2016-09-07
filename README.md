@@ -1,6 +1,6 @@
 # HANIF PROJECT UI
 
-[![Download versi terbaru](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download.svg)][btn-download]
+[![Download versi terbaru](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download-gmez.svg)][btn-download]
 
 [btn-download]: https://dl.dropboxusercontent.com/u/165535097/dokidokimaker/HanifProjectUI_v13.zip
 
