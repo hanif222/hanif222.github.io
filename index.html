@@ -30,6 +30,11 @@
 	</div>
 </body>
 <div class="container">
+	<div style="padding: 16px 0;"></div>
+	<a class="light-green waves-effect waves-light btn">DOWNLOAD .GMEZ</a>
+	<a class="light-blue  waves-effect waves-light btn">DOWNLOAD .GML</a>
+	<a class="pink waves-effect waves-light btn">DOWNLOAD .GMZ</a>
+	<div style="padding: 16px 0;"></div>
 	<div id="textbox">
 		<h4>TEXTBOX</h4>
 		<div class="video-container">
@@ -78,6 +83,46 @@
 			hanif_textbox_password(textbox0, true);<br/>
 		</code>
 		</div>
+	</div>
+	<div style="padding: 16px 0;"></div>
+	<div id="button">
+		<h4>TOMBOL</h4>
+		<div class="video-container">
+			<iframe width="853" height="480" src="//www.youtube.com/embed/rLqCyXXWRnw?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<p>Membuat sebuah tombol menjadi sangat mudah. Kita tinggal membuat sebuah object. Lalu menambahkan beberapa event berikut.</p>
+		<p>CREATE EVENT</p>
+		<div class="z-depth-2 grey lighten-2 black-text" style="padding: 1em 2em;">
+		<code>
+			button0 = hanif_button_create(64, 48, 32 * 4.5, 32, "Tombol 0");<br/>
+			button1 = hanif_button_create(64, 112, 32 * 4.5, 32 * 3.5, "Tombol 1");<br/>
+			button2 = hanif_button_create(64, 272, 32 * 16.5, 32, "Tombol 2");<br/>
+		</code>
+		</div>
+		<p>STEP EVENT</p>
+		<div class="z-depth-2 grey lighten-2 black-text" style="padding: 1em 2em;">
+		<code>
+			if(hanif_button_step(button0)){<br/>
+					show_message("Tombol 0 ditekan!");<br/>
+			}<br/>
+			else if(hanif_button_step(button1)){<br/>
+					show_message("Tombol 1 ditekan!");<br/>
+			}<br/>
+			else if(hanif_button_step(button2)){<br/>
+					show_message("Tombol 2 ditekan!");<br/>
+			}
+		</code>
+		</div>
+		<p>DRAW GUI EVENT</p>
+		<div class="z-depth-2 grey lighten-2 black-text" style="padding: 1em 2em;">
+		<code>
+			hanif_button_draw(button0);<br/>
+			hanif_button_draw(button1);<br/>
+			hanif_button_draw(button2);<br/>
+		</code>
+		</div>
+		
+		<div style="padding: 16px 0;"></div>
 	</div>
 </div>
 </html>
