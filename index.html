@@ -14,7 +14,7 @@
   <div class="navbar-fixed">
 		<nav class="grey darken-3">
 			<div class="nav-wrapper">
-				<a href="#" class="brand-logo">HANIF PROJECT UI</a>
+				<a href="#" class="brand-logo"><img class="responsive-img" src="https://dl.dropboxusercontent.com/u/165535097/Image/logo.png"/></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="https://github.com/hanif222/hanif222.github.io">Documentation</a></li>
 					<li><a href="#textbox">Textbox</a></li>
@@ -41,7 +41,6 @@
 		<code>
 			textbox0 = hanif_textbox_create(32, 32, 32 * 18, -1); //-1 untuk default<br/>
 			hanif_textbox_set_label(textbox0, "Masukkan nama anda");<br/>
-			hanif_control_set_color(textbox0, c_dkgray);<br/>
 			<br/>
 			nama = "";
 		</code>
@@ -64,6 +63,19 @@
 		<div class="z-depth-2 grey lighten-2 black-text" style="padding: 1em 2em;">
 		<code>
 			hanif_textbox_draw(textbox0);
+		</code>
+		</div>
+	</div>
+	<div style="padding: 16px 0;"></div>
+	<div id="password">
+		<h4>PASSWORD</h4>
+		<div class="video-container">
+			<iframe width="853" height="480" src="//www.youtube.com/embed/oFs62QdOgvo?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<p>Menjadikan textbox ke bentuk password cukup mudah. Kita tinggal memanggil fungsi berikut.</p>
+		<div class="z-depth-2 grey lighten-2 black-text" style="padding: 1em 2em;">
+		<code>
+			hanif_textbox_password(textbox0, true);<br/>
 		</code>
 		</div>
 	</div>
