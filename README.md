@@ -1,8 +1,12 @@
 # HANIF PROJECT UI
 
-[![Download versi terbaru](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download-gmez.svg)][btn-download]
+[![Download Extension V1.3.1](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download-gmez.svg)][btn-download-gmez]
+[![Download GML File](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download-gml.svg)][btn-download-gml]
+[![Download Compressed Game Maker Source](https://dl.dropboxusercontent.com/u/165535097/Image/btn-download-gmz.svg)][btn-download-gmz]
 
-[btn-download]: https://dl.dropboxusercontent.com/u/165535097/dokidokimaker/HanifProjectUI_v13.zip
+[btn-download-gmez]: https://drive.google.com/open?id=0B4dj7Xx1JbgQakxkSy14djBkUWs
+[btn-download-gml]: https://drive.google.com/open?id=0B4dj7Xx1JbgQT013RmJQal9OUVE
+[btn-download-gmz]: https://drive.google.com/open?id=0B4dj7Xx1JbgQZ2Q2QkFlRXFpZTQ
 
 ## Pengenalan
 
